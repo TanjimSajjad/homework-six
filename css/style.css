@@ -1,0 +1,38 @@
+*{
+margin: 0;
+ padding: 0;
+}
+.nav{
+padding: 30px 0;
+background-color: black;
+
+
+}
+ul{
+list-style-type: none;
+
+}
+.nav ul{
+display: flex;
+justify-content: center;
+column-gap: 40px;
+border: 2px solid rgba(255, 255, 255, 0.199);
+border-radius: 17px;
+width: fit-content;
+margin: 0 auto;
+padding: 10px 20px;
+}
+a{
+text-decoration: none;
+color: rgba(255, 255, 255, 0.527);
+}
+.nav a:hover{
+color: rgba(255, 255, 255, 0.925);
+border: 1px solid rgba(255, 255, 255, 0.103);
+border-radius: 10px;
+padding: 5px 10px;
+transition: .4s;
+
+}
+
+
